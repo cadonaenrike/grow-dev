@@ -1,0 +1,134 @@
+
+.azul {
+    float: left;
+    margin: 50px;
+    background-color: blue;
+}
+
+.laranja {
+    float: left;
+    margin: 50px;
+    background-color: orangered;
+}
+
+.preto {
+    float: left;
+    margin: 50px;
+    background-color: black;
+}
+
+.verde {
+    float: left;
+    margin: 50px;
+    background-color: green;
+   
+}
+
+.amarelo{
+    float: left;
+    margin: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+}
+
+.box-1 {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.box-2 {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.box-3 {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.box-4 {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.paragrafo{
+    color: blue;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    position: fixed;
+    bottom: 40%;
+    left: 40%;
+    top: 40%;
+    right: 50%;
+    margin: 15px;
+}
+
+.box-11 {
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.box-22 {
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    overflow-y: auto;
+    border: 3px solid red;
+}
+
+.esquerda{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.direita{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.esquerda .box{
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    float: left;
+}
+
+.direita .box{
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    float: right;
+}
+
+.clear{ 
+    clear: both;
+}
