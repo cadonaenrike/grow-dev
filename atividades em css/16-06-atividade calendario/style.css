@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+  }
+  td , th {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  .tabela{
+    text-align: center;
+    font-weight: bold;
+  }
+  .header {
+    text-align: center;
+    font-weight: bold;
+    
+  }
+  .imagenTop{
+   width: 300px;
+  }
+  .relogio{
+   width: 50px;
+  }
+  .rodape{
+  text-align: center;
+  }
+  .normal{
+    text-align: center;
+    font-weight:lighter;
+  }

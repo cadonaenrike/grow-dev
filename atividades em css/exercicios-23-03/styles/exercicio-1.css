@@ -1,0 +1,42 @@
+.pai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.um {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:blue;
+    width: 1000px;
+    height: 1000px;
+}
+.dois {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(255, 101, 5);
+    width: 800px;
+    height: 800px;
+}
+.tres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(0, 0, 0);
+    width: 600px;
+    height: 600px;
+}
+.quatro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(16, 158, 5);
+    width: 400px;
+    height: 400px;
+}
+.cinco {
+    background-color:rgb(242, 255, 0);
+    width: 200px;
+    height: 200px;
+}

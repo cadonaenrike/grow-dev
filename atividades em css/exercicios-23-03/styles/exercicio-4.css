@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.pai{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(197, 197, 197);
+}
+.um{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+.dois{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 105px;
+    background-color: black;
+}
+.tres{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 210px;
+    background-color: black;
+}
+.quatro{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 105px;
+    left: 0px;
+    background-color: black;
+}
+.cinco{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 105px;
+    left: 105px;
+    background-color: black;
+}
+.seis{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 210px;
+    left: 0px;
+    background-color: black;
+}
+.sete{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+}
+.oito{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 105px;
+    background-color: black;
+}
+.nove{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 210px;
+    background-color: black;
+}
+.dez{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 105px;
+    right: 0px;
+    background-color: black;
+}
+.onze{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 105px;
+    right: 105px;
+    background-color: black;
+}
+.doze{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 210px;
+    right: 0px;
+    background-color: black;
+}

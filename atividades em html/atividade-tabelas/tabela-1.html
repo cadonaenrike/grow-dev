@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade</title>
+    <style>
+         .pai {
+           position: relative;
+        }
+        .filho{
+           position: absolute;
+           top:50%;
+           left: 50%;
+           transform: translate(-50%, 10%);
+           margin: 10px;
+           padding: 20px;
+        }
+        table{
+            margin: 20px;
+            width: 500px;
+            height: 100px;
+        }
+        header{
+            text-align: center;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Atividade de tabelas HTML 1 </h1>
+    </header>
+    <main class="pai">
+       <section class="filho">
+            <table border="1 px solid">
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr align="center">
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+                <tr align="right">
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+            </table>
+            <table border="1 px solid">
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr align="center">
+                    <td colspan="3">4</td>
+                   
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+            </table>
+            <table border="1 px solid">
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td align="center" rowspan="3">3</td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2">4</td>
+                   
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+            </table>
+       </section>
+    </main>
+    <footer>
+        
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/exercicio-5/exercicio-5.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+       <div>
+            <p>
+                5. Desenvolva um algoritmo que faça o cálculo do índice de massa
+                corporal de uma pessoa. Esse algoritmo deve solicitar ao usuário
+                que digite sua altura, em seguida solicitar que digite seu peso e que
+                lhe exiba o status. O status vai variar da seguinte forma: <br>
+
+                a. Se o IMC for menor que 18,5 o status a ser mostrado deve ser
+                “Você está abaixo da faixa de peso ideal”;<br>
+
+                b. Se o IMC estiver acima de 24,99 o status a ser mostrado será
+                “Você está acima da faixa de peso ideal”;<br>
+
+                c. Se o IMC for igual ou maior que 18,5 e igual ou menor que
+                24,99, o status a ser mostrado será “Você está dentro da faixa
+                de peso ideal”.<br/>
+            </p>
+            <label for="">Digite Sua altura: </label>
+            <input type="number" id="altura"
+            placeholder="digite em numeros inteiros EX: 1.85m "/>
+            <label for="">Digite Seu Peso: </label>
+            <input type="number" id="peso"
+            placeholder="digite em numeros inteiros EX: 90kg "/>
+            <button type="button" onclick="imc()">Calcular o IMC</button>
+            <p id="resultado"></p>
+       </div>
+    </main>
+    <footer>
+
+    </footer>
+   
+</body>
+</html>
